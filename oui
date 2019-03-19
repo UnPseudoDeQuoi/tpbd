@@ -1,0 +1,13 @@
+insert into Personne values ('orp001', 'Key', 'Mehdi', 'Thesard', 2);
+insert into Personne values ('orp002', 'Prouss', 'Yannick', 'CR', 2);
+insert into Personne values ('sco001', 'Char', 'Francois', 'McF', 1);
+insert into Personne values ('sco002', 'Ost', 'Gerald', 'McF', 1);
+insert into Equipe values (1, 'LORIA score', '01-jan-2000', 'sco001');
+insert into Equipe values (2, 'LORIA orp', '01-jan-2000', NULL);
+insert into Equipe values (3, 'INRIA orp', '01-jan-2000', 'orp002');
+insert into Projet values ('hybrid', '15-jun-2010', NULL, 'orp002');
+insert into Projet values ('turbine', '15-jun-2011', 5, 'orp002');
+insert into Participe values ('orp002', 'hybrid', 50);
+insert into Participe values ('orp002', 'hybrid', 75);
+insert into Participe values ('orp001', 'hybrid', 120);
+insert into Participe values ('orp002', 'turbine', 50);
